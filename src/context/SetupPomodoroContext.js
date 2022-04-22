@@ -38,16 +38,17 @@ const SetupContextProvider = (props) => {
     }
 
     const resetTimer = (isDoingTask) => {
-        // console.log("isDoingTask: " + isDoingTask)
+        console.log("isDoingTask: " + isDoingTask)
         if(isDoingTask){
             setFinishCycle(true)
             // console.log("In Context: finish Cycle: " + finishCycle)
+        } else {
+            setNewTimerKey(newTimerKey + 1)
+            pauseTimer() //pause the animation when the clock is refreshed
         }
-        setNewTimerKey(newTimerKey + 1)
-        pauseTimer() //pause the animation when the clock is refreshed
+
         
     }
-        
 
     const updateTimer = (newTimer) => {
         setExecuting(newTimer) //object, "newTimer" from SetPomodoro
