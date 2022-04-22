@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/si579-pomodoro-todolist/static/css/main.9e05772d.css",
+    "main.js": "/si579-pomodoro-todolist/static/js/main.22e24d59.js",
+    "static/js/787.1e4ff8b7.chunk.js": "/si579-pomodoro-todolist/static/js/787.1e4ff8b7.chunk.js",
+    "static/media/logo.svg": "/si579-pomodoro-todolist/static/media/logo.9893a6431f7cf7c7b37d5ff2fb34eb79.svg",
+    "index.html": "/si579-pomodoro-todolist/index.html",
+    "main.9e05772d.css.map": "/si579-pomodoro-todolist/static/css/main.9e05772d.css.map",
+    "main.22e24d59.js.map": "/si579-pomodoro-todolist/static/js/main.22e24d59.js.map",
+    "787.1e4ff8b7.chunk.js.map": "/si579-pomodoro-todolist/static/js/787.1e4ff8b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e05772d.css",
+    "static/js/main.22e24d59.js"
+  ]
+}
